@@ -13,6 +13,7 @@ pyjwt = "*"
 users = "*"
 services = "*"
 gunicorn = "*"
+psycopg2 = "*"
 
 [dev-packages]
 pytest = "*"
