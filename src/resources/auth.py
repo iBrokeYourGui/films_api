@@ -70,4 +70,3 @@ def token_required(func):
         return func(self, *args, **kwargs)
 
     return wrapper
-

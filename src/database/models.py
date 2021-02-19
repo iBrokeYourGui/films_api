@@ -10,6 +10,7 @@ movies_actors = db.Table(
     db.Column('film_id', db.Integer, db.ForeignKey('films.id'), primary_key=True)
 )
 
+
 class Film(db.Model):
     __tablename__ = 'films'
 
